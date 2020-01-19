@@ -80,5 +80,9 @@
             .jcarouselControl({
                 target: '+=1'
             });
+       $('.jcarousel').jcarouselAutoscroll({
+            autostart: true,
+           interval: 1000
+        });
     });
 })(jQuery);
