@@ -7,7 +7,11 @@
     var connector = function(itemNavigation, carouselStage) {
         return carouselStage.jcarousel('items').eq(itemNavigation.index());
     };
-
+    .jcarouselAutoscroll({
+            interval: 3000,
+            target: '+=1',
+            autostart: true
+        });
     $(function() {
         // Setup the carousels. Adjust the options for both carousels here.
         var carouselStage      = $('.carousel-stage').jcarousel();
