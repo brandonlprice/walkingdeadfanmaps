@@ -1,7 +1,7 @@
 /** Stage container **/
 
 .connected-carousels .stage {
-    width: 700px;
+    width: 700px !important;
     margin: 20px auto;
     position: relative;
 }
@@ -50,7 +50,7 @@
 /** Stage carousel specific styles **/
 
 .connected-carousels .carousel-stage {
-    height: 475px;
+    height: 475px @important;
     border: 10px solid #fff;
     -webkit-border-radius: 5px;
        -moz-border-radius: 5px;
