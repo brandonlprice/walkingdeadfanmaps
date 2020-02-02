@@ -79,11 +79,11 @@
 
 .connected-carousels .carousel-navigation li img {
     display: block;
-    border: 5px solid #fff;
+    border: 5px solid #7d7d7d;
 }
 
 .connected-carousels .carousel-navigation li.active img {
-    border-color: #ccc;
+    border-color: #fff;
 }
 
 /** Stage carousel controls **/
