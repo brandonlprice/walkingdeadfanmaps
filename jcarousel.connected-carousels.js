@@ -59,9 +59,27 @@
             });
 
         // Setup controls for the navigation carousel
-        $('.prev-navigation').jcarouselControl('destroy');
+       $('.prev-navigation')
+            .on('jcarouselcontrol:inactive', function() {
+                $(this).addClass('inactive');
+            })
+            .on('jcarouselcontrol:active', function() {
+                $(this).removeClass('inactive');
+            })
+            .jcarouselControl({
+                target: '-=1'
+            });
 
-        $('.next-navigation').jcarouselControl('destroy');
+        $('.next-navigation')
+            .on('jcarouselcontrol:inactive', function() {
+                $(this).addClass('inactive');
+            })
+            .on('jcarouselcontrol:active', function() {
+                $(this).removeClass('inactive');
+            })
+            .jcarouselControl({
+                target: '+=1'
+            });
         
        $('.jcarousel').jcarousel({
                 wrap: 'circular'
