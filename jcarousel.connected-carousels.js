@@ -81,6 +81,10 @@
                 target: '+=1'
             });
        
+        $('.licontrol').on('jcarousel:targetin', 'li', function() {
+             $(this).addClass('active');
+            });
+        
         $('.licontrol').jcarouselControl('destroy');
        
         $('.jcarousel').jcarousel({
