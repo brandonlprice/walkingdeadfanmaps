@@ -82,7 +82,7 @@
 }
 
 .connected-carousels .carousel-navigation li.active img {
-    border-color: #7d7d7d;
+    border: 7px solid #7d7d7d;
 }
 
 /** Stage carousel controls **/
