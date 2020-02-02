@@ -81,9 +81,11 @@
                 target: '+=1'
             });
        
-        $('.licontrol').on('jcarousel:targetin', 'li', function() {
-             $(this).addClass('active');
-            });
+        $('.licontrol').click(function(e){
+        e.preventDefault();
+        $('.jcarousel-list li').removeClass('active');
+        $('.jcarousel-list li:eq(' + (txt - 1) + ')').addClass('active')
+        })
         
         $('.licontrol').jcarouselControl('destroy');
        
