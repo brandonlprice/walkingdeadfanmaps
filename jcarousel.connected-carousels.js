@@ -80,7 +80,10 @@
             .jcarouselControl({
                 target: '+=1'
             });
-       $('.jcarousel').jcarouselAutoscroll({
+       $('.jcarousel').jcarousel({
+                wrap: 'circular'
+            })
+           .jcarouselAutoscroll({
             autostart: true,
            interval: 1000
         });
