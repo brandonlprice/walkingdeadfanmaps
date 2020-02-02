@@ -88,7 +88,7 @@
         $('.jcarousel-list li:eq(' + (txt - 1) + ')').addClass('active')
         })
         
-        $('.licontrol').jcarouselControl('destroy');
+       
        
         $('.jcarousel').jcarousel({
                 wrap: 'circular'
