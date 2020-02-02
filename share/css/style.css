@@ -49,8 +49,8 @@ pre {
 }
 
 @media only screen and (max-width: 600px) {
-  body {
-    transform: scale(1.5);
+  .wrapper {
+    transform: scale(1.75);
    transform-origin: 0 0;
   }
 }
