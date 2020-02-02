@@ -8,8 +8,8 @@
 
 .connected-carousels .photo-credits {
     position: absolute;
-    right: 15px;
-    bottom: 0;
+    text-align: center;
+    bottom: 50px;
     font-size: 13px;
     color: #fff;
     text-shadow: 0 0 1px rgba(0, 0, 0, 0.85);
