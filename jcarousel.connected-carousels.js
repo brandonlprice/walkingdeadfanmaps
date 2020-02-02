@@ -80,8 +80,10 @@
             .jcarouselControl({
                 target: '+=1'
             });
-        
-       $('.jcarousel').jcarousel({
+       
+        $('.licontrol').jcarouselControl('destroy');
+       
+        $('.jcarousel').jcarousel({
                 wrap: 'circular'
             })
            .jcarouselAutoscroll({
