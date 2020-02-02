@@ -83,6 +83,7 @@
        
         $('.licontrol').click(function(e){
         e.preventDefault();
+        var txt = $(this).text();   
         $('.jcarousel-list li').removeClass('active');
         $('.jcarousel-list li:eq(' + (txt - 1) + ')').addClass('active')
         })
