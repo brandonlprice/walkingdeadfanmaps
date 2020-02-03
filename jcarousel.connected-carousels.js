@@ -95,7 +95,7 @@
             })
            .jcarouselAutoscroll({
             autostart: true,
-           interval: 6000
+           interval: 5000
         });
     });
 })(jQuery);
